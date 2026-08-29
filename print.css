@@ -1,0 +1,128 @@
+@page {
+  size: 16in 9in;
+  margin: 0;
+}
+
+@media print {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  html,
+  body {
+    width: 100%;
+    min-width: 0;
+    overflow: visible !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .site-header,
+  .site-menu,
+  .section-rail,
+  .cursor-orbit,
+  .back-top,
+  .scroll-cue,
+  .grain,
+  .skip-link {
+    display: none !important;
+  }
+
+  .page,
+  .page-inner,
+  .journey,
+  .folder-profile-layout,
+  .ai-page {
+    height: auto !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+  }
+
+  .page {
+    break-inside: auto;
+  }
+
+  .page-inner,
+  .journey {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .hero-page,
+  .contact-page {
+    min-height: 100vh !important;
+    break-after: page;
+  }
+
+  .reveal,
+  .page .reveal,
+  .page.is-visible .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .problem-list,
+  .outcome-layout > .section-heading,
+  .outcome-stack,
+  .outcome-story,
+  .journey__sticky,
+  .journey__stage {
+    position: relative !important;
+    inset: auto !important;
+  }
+
+  .outcome-layout > .section-heading,
+  .outcome-stack {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .outcome-layout {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+
+  .outcome-stack {
+    padding: 24px 0 !important;
+    gap: 40px !important;
+  }
+
+  .outcome-story,
+  .research-gallery figure,
+  .ai-comic-gallery figure,
+  .journey .thought-note,
+  .journey .qa-card {
+    break-inside: avoid;
+  }
+
+  .profile-folder-stage {
+    position: relative !important;
+    inset: auto !important;
+    min-height: auto !important;
+  }
+
+  .folder-inside-content {
+    position: relative !important;
+    inset: auto !important;
+    height: auto !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .folder-cover-copy,
+  .folder-quick-list,
+  .profile-folder-toggle,
+  .profile-photo-deck,
+  .blue-folder-art {
+    display: none !important;
+  }
+
+  .journey .qa-card {
+    min-height: 0 !important;
+  }
+
+  video {
+    display: none !important;
+  }
+}
