@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="余晨琛的空间叙事与数字艺术作品集" />
+    <title>余晨琛｜空间叙事与数字艺术作品集</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="journey.css" />
+    <link rel="stylesheet" href="ai-tv.css" />
+    <link rel="stylesheet" href="print.css" media="print" />
+  </head>
+  <body data-theme="dark">
+    <a class="skip-link" href="#main">跳至主要内容</a>
+
+    <div class="grain" aria-hidden="true"></div>
+    <div class="cursor-orbit" aria-hidden="true"><span></span></div>
+
+    <header class="site-header">
+      <a class="brand" href="#cover" aria-label="返回封面">
+        <span class="brand-mark">YC</span>
+        <span class="brand-name">YU CHENCHEN</span>
+      </a>
+      <div class="header-center" aria-live="polite">
+        <span id="currentNumber">00</span>
+        <span class="header-rule"></span>
+        <span id="currentTitle">PORTFOLIO</span>
+      </div>
+      <button class="menu-button" aria-expanded="false" aria-controls="siteMenu">
+        <span>INDEX</span><i></i>
+      </button>
+    </header>
+
+    <nav class="site-menu" id="siteMenu" aria-label="作品集目录">
+      <div class="menu-intro">
+        <p>Portfolio / 2026</p>
+        <h2>我设计的空间不仅被看见，<br />也被体验、记忆与诠释。</h2>
+      </div>
+      <ol>
+        <li><a href="#cover"><em>00</em><span>HOME / 个人首页</span></a></li>
+        <li><a href="#about"><em>01</em><span>ABOUT ME / 我是谁</span></a></li>
+        <li><a href="#direction"><em>02</em><span>RESEARCH DIRECTION / 研究方向</span></a></li>
+        <li><a href="#graduation"><em>03</em><span>PART 01 / 毕业设计总览</span></a></li>
+        <li><a href="#research"><em>04</em><span>RESEARCH &amp; PROBLEM / 从问题到概念</span></a></li>
+        <li><a href="#mechanism"><em>05</em><span>DESIGN SYSTEM / 连廊 × 双时双境</span></a></li>
+        <li><a href="#outcome"><em>06</em><span>OUTCOME &amp; REFLECTION / 呈现与思考</span></a></li>
+        <li><a href="#code"><em>07</em><span>PART 02 / 数字能力与学习</span></a></li>
+        <li><a href="#ai"><em>08</em><span>AI × CODE × CREATION / 创作实验</span></a></li>
+        <li><a href="#future"><em>09</em><span>READING &amp; INTEREST / 阅读与研究</span></a></li>
+        <li><a href="#heart-path"><em>10</em><span>MY THOUGHTS / 我的思考</span></a></li>
+        <li><a href="#contact"><em>11</em><span>NEXT / 未来计划与联系</span></a></li>
+      </ol>
+    </nav>
+
+    <aside class="section-rail" aria-label="章节进度">
+      <span class="rail-progress"></span>
+      <a href="#cover" aria-label="个人首页"></a><a href="#about" aria-label="我是谁"></a>
+      <a href="#direction" aria-label="研究方向"></a><a href="#graduation" aria-label="毕业设计总览"></a>
+      <a href="#research" aria-label="从问题到概念"></a><a href="#mechanism" aria-label="连廊与双时双境"></a>
+      <a href="#outcome" aria-label="设计呈现与思考"></a><a href="#code" aria-label="数字能力与学习"></a>
+      <a href="#ai" aria-label="人工智能与代码创作实验"></a><a href="#future" aria-label="阅读与研究方向"></a>
+      <a href="#heart-path" aria-label="我的思考"></a><a href="#contact" aria-label="未来计划与联系方式"></a>
+    </aside>
+
+    <main id="main">
+      <section class="page hero-page theme-paper" id="cover" data-number="00" data-title="LIFE CONTINUE TO GROW" data-theme="paper">
+        <canvas class="word-tree" id="wordTree" aria-label="由文字组成、可被鼠标拨动的生长树"></canvas>
+        <div class="cover-fold" aria-hidden="true"></div>
+        <div class="cover-art" aria-hidden="true">
+          <img class="cover-background" src="assets/cover-background-user.png" alt="" />
+        </div>
+        <button class="flying-swallow" type="button" aria-label="让燕子向左飞走">
+          <img src="assets/cover-flying-bird-user.webp" alt="飞行的燕子" />
+        </button>
+        <div class="page-inner cover-layout">
+          <div class="cover-date reveal">
+            <span>PORTFOLIO SUPPLEMENT</span>
+            <strong>2026.03——2026.08</strong>
+            <small>作品补充 / SELECTED NEW WORKS</small>
+          </div>
+
+          <div class="cover-title reveal">
+            <p>LIFE CONTINUE TO GROW</p>
+            <h1>生命持续生长</h1>
+          </div>
+
+          <div class="growth-seal reveal" aria-label="装饰文字：生长"><span>生</span><span>长</span></div>
+
+          <div class="cover-motto reveal">
+            <span>保持纯粹</span>
+            <span>保持好奇</span>
+            <span>保持思考</span>
+            <small>STAY PURE · STAY CURIOUS · KEEP THINKING</small>
+          </div>
+
+          <div class="cover-theme reveal">
+            <strong>空间叙事 <i>＋</i> 虚实体验</strong>
+            <span>NARRATIVE SPACE + VIRTUAL &amp; PHYSICAL EXPERIENCE</span>
+          </div>
+
+          <div class="cover-sign reveal">
+            <strong>余晨琛</strong>
+            <span>YU CHENCHEN · SPATIAL DESIGNER / DIGITAL ART EXPLORER</span>
+          </div>
+          <p class="tree-hint reveal">MOVE CURSOR TO DISTURB THE WORDS<br />移动鼠标，拨动生长中的文字</p>
+        </div>
+        <a class="scroll-cue" href="#about"><span>SCROLL TO EXPLORE</span><i></i></a>
+      </section>
+
+      <section class="page about-page theme-paper" id="about" data-number="01" data-title="ABOUT ME" data-theme="paper">
+        <div class="page-inner folder-profile-layout">
+          <div class="folder-file-label reveal" aria-hidden="true">
+            <span class="mini-folder-icon"></span><strong>个人简介</strong>
+          </div>
+
+          <div class="folder-edit-menu reveal" aria-hidden="true">
+            <span>Cut</span><span>Copy</span><span>Paste</span><span>Replace… <i>▶</i></span>
+          </div>
+
+          <div class="folder-cover-copy reveal">
+            <h2><strong>WHAT’S INSIDE</strong><span>THIS FOLDER</span></h2>
+            <span class="pixel-cursor" aria-hidden="true">↖</span>
+          </div>
+
+          <div class="folder-quick-list reveal" aria-hidden="true">
+            <span>01 / Profile</span>
+            <span>02 / What I care about</span>
+            <span>03 / Experience &amp; skills</span>
+          </div>
+
+          <div class="profile-folder-stage reveal" id="profileFolder">
+            <button class="profile-folder-toggle" type="button" aria-expanded="false" aria-label="打开或收起个人简介文件夹"></button>
+
+            <div class="profile-photo-deck" aria-label="三张个人照片">
+              <figure class="profile-photo photo-left"><img src="assets/about-personal-1.webp" alt="中南大学建筑与艺术学院毕业纪念" /></figure>
+              <figure class="profile-photo photo-center"><img src="assets/about-personal-3.webp" alt="个人生活照片" /></figure>
+              <figure class="profile-photo photo-right"><img src="assets/about-personal-2.webp" alt="个人生活记录" /></figure>
+            </div>
+
+            <div class="folder-inside-content">
+              <div class="folder-text-grid">
+                <article class="folder-text-card profile-text-card">
+                  <div class="folder-card-heading"><span>01 / PERSONAL PROFILE</span><h3>个人简介</h3></div>
+                  <p>我是余晨琛，本科就读于中南大学建筑与艺术学院环境设计专业。本科阶段的学习让我建立了对空间、尺度、路径与人的行为关系的基本理解，而我真正持续关注的问题，是空间如何成为表达思想、故事与情感的媒介。</p>
+                  <p>从空间设计、文化展示到场景构建与数字媒介，我逐渐意识到：我感兴趣的并不是某一种固定的设计形式，而是人、叙事与空间体验之间的关系。</p>
+                </article>
+
+                <article class="folder-text-card philosophy-text-card">
+                  <div class="folder-card-heading"><span>02 / WHAT I CARE ABOUT</span><h3>关注方向</h3></div>
+                  <p>在不断进行空间实践的过程中，我开始关注数字技术对空间边界的改变。AR、VR、XR、实时渲染与生成式 AI，使空间不再只是固定的三维容器，观众也可以进入、参与甚至改变叙事。</p>
+                  <p>因此，我希望将已有的空间构建能力继续向游戏场景、虚拟舞台、虚拟电影场景与沉浸式展演空间拓展，进一步理解虚实空间中人与内容之间新的关系。</p>
+                  <div class="design-philosophy-copy">
+                    <h4><span>设计理念</span><small>design philosophy</small></h4>
+                    <p>在我的设计实践中，始终贯穿着一个核心信念：设计不仅是塑造空间，更是编织叙事、激发情感与引发思考的艺术。我相信设计是赋予空间叙事与情感的艺术。我致力于融合影像、声音与空间结构，通过层次的安排和隐喻的运用，构建能引发共鸣与思考的沉浸式场域。从电影、音乐与跨媒介艺术中汲取灵感，我追求在理性构建中注入温度，让每一次设计不仅被看见，更被感知和记忆。</p>
+                  </div>
+                </article>
+              </div>
+
+              <section class="software-skills" aria-labelledby="softwareSkillsTitle">
+                <div class="skills-heading"><span>03 / SOFTWARE SKILLS</span><h3 id="softwareSkillsTitle">个人技能</h3></div>
+                <ul>
+                  <li style="--skill:#e9781c"><span class="skill-icon">Bl</span><strong>Blender</strong></li>
+                  <li style="--skill:#111827"><span class="skill-icon">&lt;/&gt;</span><strong>Codex</strong></li>
+                  <li style="--skill:#ee3d8f"><span class="skill-icon">Id</span><strong>InDesign</strong></li>
+                  <li style="--skill:#31a8ff"><span class="skill-icon">Ps</span><strong>Photoshop</strong></li>
+                  <li style="--skill:#ff9a00"><span class="skill-icon">Ai</span><strong>Illustrator</strong></li>
+                  <li style="--skill:#db4437"><span class="skill-icon">Su</span><strong>SketchUp</strong></li>
+                  <li style="--skill:#1f6feb"><span class="skill-icon">D5</span><strong>D5 Render</strong></li>
+                  <li style="--skill:#a259ff"><span class="skill-icon">Fi</span><strong>Figma</strong></li>
+                  <li style="--skill:#151515"><span class="skill-icon">剪</span><strong>剪映</strong></li>
+                  <li style="--skill:#7b61ff"><span class="skill-icon">Pr</span><strong>Premiere Pro</strong></li>
+                  <li style="--skill:#232323"><span class="skill-icon">Pc</span><strong>Procreate</strong></li>
+                  <li style="--skill:#e32636"><span class="skill-icon">A</span><strong>AutoCAD</strong></li>
+                </ul>
+              </section>
+            </div>
+
+            <div class="blue-folder-art" aria-hidden="true">
+              <span class="blue-folder-back"></span>
+              <span class="blue-folder-front"></span>
+              <span class="blue-folder-handle">@YC</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page direction-page theme-blue" id="direction" data-number="02" data-title="RESEARCH DIRECTION" data-theme="blue">
+        <div class="page-inner direction-grid">
+          <div class="section-heading light reveal">
+            <p class="eyebrow">FROM SPACE TO DIGITAL / 从空间到数字</p>
+            <h2>从实体空间，<br />走向<i>虚实共生</i>。</h2>
+          </div>
+          <div class="direction-orbit ripple-zone reveal" data-ripple-zone aria-label="研究关系图，移动鼠标可产生水波">
+            <div class="orbit orbit-one"></div><div class="orbit orbit-three"></div>
+            <div class="orbit orbit-two"></div><div class="orbit orbit-four"></div>
+            <div class="ripple-origin" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span class="orbit-core">SPACE<br />NARRATIVE</span>
+            <span class="orbit-label label-a">ART<br />艺术</span>
+            <span class="orbit-label label-b">TECH<br />技术</span>
+            <span class="orbit-label label-c">STORY<br />叙事</span>
+            <span class="orbit-label label-d">BODY<br />体验</span>
+          </div>
+          <div class="direction-statement reveal">
+            <div class="direction-ripple ripple-zone" data-ripple-zone aria-hidden="true">
+              <span class="direction-ring ring-one"></span><span class="direction-ring ring-two"></span>
+              <span class="direction-ring ring-three"></span><span class="direction-ring ring-four"></span>
+              <div class="ripple-origin"><i></i><i></i><i></i></div>
+            </div>
+            <p>空间叙事 · 数字媒介 · 虚实体验</p>
+            <h3>沉浸式展演空间<br />与叙事交互研究</h3>
+            <div class="keyword-row"><span>XR / AR / VR</span><span>实时渲染</span><span>参与式叙事</span><span>文化转译</span></div>
+          </div>
+          <p class="direction-note reveal">当空间可以被实时生成、参与和改变时，我希望继续理解虚实场景中人与内容之间新的关系。</p>
+        </div>
+      </section>
+
+      <section class="page graduation-page theme-clay" id="graduation" data-number="03" data-title="PART 01 / GRADUATION PROJECT" data-theme="clay">
+        <div class="page-inner grad-intro-grid">
+          <div class="project-index reveal"><span>PART 01</span><strong>GRADUATION<br />DESIGN</strong></div>
+          <div class="grad-title reveal">
+            <p class="eyebrow">GRADUATION PROJECT / 毕业设计总览</p>
+            <h2>基于“双时双境”的<br /><i>侨厝空间秩序重构</i>设计</h2>
+            <p>Jindai Village, Fujian · Graduation Design / Heritage Renewal</p>
+          </div>
+          <div class="grad-visual reveal"><img src="assets/grad-board-1.webp" alt="侨厝空间秩序重构毕业设计展板" /></div>
+          <div class="grad-summary reveal">
+            <p>当传统村落进入新的使用语境，遗产是否可以不只是“被观看”的对象，而重新成为“被使用”的生活空间？设计以连廊为结构语言，在低干预与可逆性的基础上重新组织村落公共空间。</p>
+            <ul><li>连廊结构语言 × 空间叙事</li><li>双时双境 × 多元使用</li><li>低干预 × 可逆性介入</li></ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="page research-page theme-paper" id="research" data-number="04" data-title="RESEARCH &amp; PROBLEM" data-theme="paper">
+        <div class="page-inner research-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">RESEARCH &amp; PROBLEM / 从问题到概念</p>
+            <h2>真正需要修复的，<br />不只是建筑，<br />而是<i>关系与秩序</i>。</h2>
+          </div>
+          <div class="research-gallery reveal">
+            <figure class="research-main"><img src="assets/grad-site.webp" alt="金埭村场地现状分析" /><figcaption>01 / 场地现状与空间断裂</figcaption></figure>
+            <figure><img src="assets/grad-history.webp" alt="金埭村历史沿革分析" /><figcaption>02 / 历史沿革</figcaption></figure>
+            <figure><img src="assets/grad-people.webp" alt="村民与游客人群分析" /><figcaption>03 / 人群行为</figcaption></figure>
+          </div>
+          <div class="problem-list reveal">
+            <div><span>01</span><h3>FRAGMENTED / 空间割裂</h3><p>“前埕—巷道—院落”的原有连续关系被打断，空间成为彼此独立的片段。</p></div>
+            <div><span>02</span><h3>DISCONNECTED / 路径失效</h3><p>传统轴线难以承载当代多元、交织的使用需求。</p></div>
+            <div><span>03</span><h3>DISAPPEARING / 场景消隐</h3><p>生活外迁与静态保护，使可以进入、停留和交往的日常场景逐渐离场。</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page mechanism-page theme-red" id="mechanism" data-number="05" data-title="DESIGN SYSTEM" data-theme="red">
+        <div class="page-inner mechanism-layout">
+          <div class="mechanism-title reveal">
+            <p class="eyebrow">DESIGN SYSTEM / 连廊 × 双时双境</p>
+            <h2>双时 <span>×</span> 双境</h2>
+            <p>空间重叠，节奏分离。</p>
+          </div>
+          <div class="time-switch reveal">
+            <div class="switch-track"><span></span></div>
+            <div class="time-card daytime"><em>DAY / 06:00—17:00</em><h3>生活与日常</h3><p>通行、休闲、社交、农贸与公共生活</p></div>
+            <div class="time-card nighttime"><em>NIGHT / 17:00—24:00</em><h3>夜游与体验</h3><p>展演、消费、文化感知与社交停留</p></div>
+          </div>
+          <div class="mechanism-diagram reveal">
+            <div class="diagram-line line-villager"><span>VILLAGER / 村民</span></div>
+            <div class="node n1">入口</div><div class="node n2">广场</div><div class="node n3">集市</div><div class="node n4">榕树</div><div class="node n5">戏台</div><div class="node n6">观景</div>
+            <div class="diagram-line line-visitor"></div>
+            <span class="diagram-visitor-label">VISITOR / 游客</span>
+          </div>
+          <p class="mechanism-copy reveal">我将连廊从交通构件转化为空间组织语言：它连接建筑、院落、景观与公共节点，并承担路径、视线、停留与场景转换。目标不是增加一座新建筑，而是用轻量、连续、可辨认的结构恢复场地公共性。</p>
+        </div>
+      </section>
+
+      <section class="page outcome-page theme-charcoal" id="outcome" data-number="06" data-title="OUTCOME &amp; REFLECTION" data-theme="dark">
+        <div class="page-inner outcome-layout">
+          <div class="section-heading light reveal">
+            <p class="eyebrow">DESIGN OUTCOME &amp; REFLECTION / 设计呈现与思考</p>
+            <h2>结构、植物与光，<br />共同完成<i>空间织补</i>。</h2>
+          </div>
+
+          <div class="outcome-stack">
+            <article class="outcome-story reveal">
+              <figure class="outcome-card reveal">
+                <img src="assets/grad-elements.webp" alt="侨厝传统元素提取、连廊结构转译与材料系统分析图" loading="lazy" />
+                <figcaption><span>01</span>传统元素提取与连廊结构语言</figcaption>
+              </figure>
+              <div class="outcome-story-copy">
+                <span class="outcome-chapter">01 / STRUCTURAL LANGUAGE</span>
+                <h3>CONNECT<br />重新连接路径。</h3>
+                <p>红色连廊把入口、广场、市集、戏台、榕树与观景平台重新串联，使建筑、院落、景观和公共节点从碎片转为连续的空间序列。</p>
+                <p>结构从红砖肌理、坡屋顶、木构架、出檐与格栅中提取线性、重复与节奏，并以低干预、可逆的方式介入历史环境。</p>
+                <div class="outcome-points"><span>重新连接</span><span>空间骨架</span><span>可逆性介入</span></div>
+              </div>
+            </article>
+
+            <article class="outcome-story reveal">
+              <figure class="outcome-card reveal">
+                <img src="assets/grad-light.webp" alt="连廊植物配置、材料系统与夜间照明路径分析图" loading="lazy" />
+                <figcaption><span>02</span>植物、材料与照明的协同系统</figcaption>
+              </figure>
+              <div class="outcome-story-copy">
+                <span class="outcome-chapter">02 / AUXILIARY SYSTEM</span>
+                <h3>PAUSE<br />创造停留与感知。</h3>
+                <p>植物从路径生成阶段便与连廊共同设计：乔木提供遮荫与停留，灌木和花境柔化边界，乡土植物延续村落的自然气息。</p>
+                <p>材料与照明沿结构协同展开，以红色钢木骨架、浅色墙体、玻璃屋面和连续光轴组织行进、观看、休憩与昼夜转换。</p>
+                <div class="outcome-facts">
+                  <div><strong>植物</strong><span>遮荫 · 停留 · 边界柔化</span></div>
+                  <div><strong>材料</strong><span>红色骨架 · 浅墙 · 玻璃 · 乡土铺装</span></div>
+                  <div><strong>灯光</strong><span>路径导向 · 节点强调 · 昼夜转换</span></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="outcome-story reveal">
+              <figure class="outcome-card reveal">
+                <img src="assets/grad-board-2.webp" alt="侨厝空间秩序重构完整设计成果展板" loading="lazy" />
+                <figcaption><span>03</span>完整空间秩序与“双时双境”成果</figcaption>
+              </figure>
+              <div class="outcome-story-copy">
+                <span class="outcome-chapter">03 / DUAL-TIME &amp; DUAL-SCENARIO</span>
+                <h3>COEXIST × TRANSFORM<br />共存，并随时间变化。</h3>
+                <p>村民路径强调日常效率与熟悉感，游客路径侧重游览、体验与叙事感知；两类人群共享部分空间，却通过尺度、功能和时间保持各自节奏。</p>
+                <p>这次设计让我意识到，我真正关注的不是空间最终“长什么样”，而是人如何进入、行动与停留，以及空间如何随时间和使用者持续变化。</p>
+                <blockquote>从塑造空间，到设计体验。</blockquote>
+                <div class="system-tags"><span>可逆构造</span><span>红色连廊</span><span>灰空间</span><span>乡土植物</span><span>夜游光轴</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="page code-page theme-lime" id="code" data-number="07" data-title="PART 02 / DIGITAL EXPLORATION" data-theme="lime">
+        <div class="page-inner code-layout">
+          <div class="project-index dark reveal"><span>PART 02</span><strong>DIGITAL<br />EXPLORATION</strong></div>
+          <div class="section-heading reveal">
+            <p class="eyebrow">AI × CODE × CREATION / 数字能力与学习</p>
+            <h2>工具不是清单，<br />而是扩展<i>空间构建</i>的方式。</h2>
+          </div>
+          <div class="code-window reveal" aria-label="代码协作过程示意">
+            <div class="window-bar"><i></i><i></i><i></i><span>portfolio.js</span></div>
+            <pre><code><span class="code-muted">// idea → describe → generate → experience</span>
+const exploration = {
+  scene: <span class="code-string">"Blender / real-time"</span>,
+  image: <span class="code-string">"AI generation + selection"</span>,
+  prototype: <span class="code-string">"AI-assisted coding"</span>
+};
+
+test(exploration);
+debug(); iterate(<span class="code-string">"with judgement"</span>);</code></pre>
+          </div>
+          <div class="code-copy reveal">
+            <p>我正在尝试通过 AI、代码辅助工具与三维软件拓展空间构建方式：从定义问题、描述功能与交互，到生成、测试和修正原型。这个网站本身也是一次实验。</p>
+            <div><strong>3D</strong><span>Blender · 空间、材质与灯光</span><strong>AI</strong><span>生成、筛选与视觉转译</span><strong>CODE</strong><span>自然语言协作与交互原型</span><strong>REAL-TIME</strong><span>虚拟环境与实时场景</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page ai-page theme-cosmos" id="ai" data-number="08" data-title="AI × CODE × CREATION" data-theme="cosmos">
+        <div class="ai-backdrop"><video src="assets/ai-final-motion.mp4" autoplay muted loop playsinline poster="assets/ai-final-a.webp"></video></div>
+        <div class="page-inner ai-layout">
+          <div class="section-heading light reveal">
+            <p class="eyebrow">STATIC ATMOSPHERE TO MOTION / 静态氛围图的动态转化尝试</p>
+            <h2>让 AI 放大想象，<br />让人保留<i>判断权</i>。</h2>
+          </div>
+          <div class="ai-process reveal">
+            <div class="process-column process-original"><span>01 / 手绘原本</span><img src="assets/ai-original.webp" alt="复古科幻氛围手绘原图" /></div>
+            <div class="process-arrow">→</div>
+            <div class="process-column"><span>02 / 参考、生成与控制</span><img src="assets/ai-process-1.webp" alt="AI 改图与构图控制过程" /></div>
+            <div class="process-arrow">→</div>
+            <div class="process-column"><span>03 / 筛选与动态转译</span><img src="assets/ai-motion.webp" alt="画面运动轨迹设计" /></div>
+          </div>
+          <div class="ai-thumbs reveal"><img src="assets/ai-final-a.webp" alt="AI 场景成果一" /><img src="assets/ai-final-b.webp" alt="AI 场景成果二" /><img src="assets/ai-final-c.webp" alt="AI 场景成果三" /></div>
+          <div class="ai-attitude reveal"><strong>MY POSITION</strong><p>我把 AI 当作视觉探索工具，而不是最终答案。它能够快速展开可能性，但选择、判断、叙事关系与视觉控制仍然需要由设计者完成。</p></div>
+
+          <section class="ai-tv-module reveal" aria-labelledby="aiTvTitle">
+            <div class="ai-tv-copy">
+              <span>INTERACTIVE ARCHIVE / 互动影像</span>
+              <h3 id="aiTvTitle">把想象装进<br />一盘<i>磁带</i>。</h3>
+              <p>拖动磁带放入电视机插槽，播放从静态氛围图延伸出的动态场景。</p>
+            </div>
+
+            <div class="ai-tv-stage" id="aiTvStage">
+              <div class="ai-tv-set" id="aiTvDropZone">
+                <span class="ai-tv-antenna" aria-hidden="true"></span>
+                <div class="ai-tv-screen-shell">
+                  <video id="aiTvVideo" src="assets/ai-final-motion.mp4" preload="metadata" playsinline loop poster="assets/ai-final-a.webp"></video>
+                  <div class="ai-tv-idle" aria-hidden="true">
+                    <span>NO SIGNAL / 08</span>
+                    <strong>INSERT TAPE</strong>
+                    <small>放入磁带开始播放</small>
+                  </div>
+                  <div class="ai-tv-scanlines" aria-hidden="true"></div>
+                </div>
+
+                <div class="ai-tv-console">
+                  <div class="ai-tv-slot" id="aiTvSlot" aria-hidden="true"><i></i></div>
+                  <span class="ai-tv-power" aria-hidden="true"></span>
+                  <span class="ai-tv-dial" aria-hidden="true"></span>
+                  <button class="ai-tv-eject" id="aiTvEject" type="button" aria-label="退出磁带并停止播放">EJECT</button>
+                </div>
+              </div>
+
+              <button class="ai-cassette" id="aiCassette" type="button" aria-label="拖动或点击磁带，将它放入电视机开始播放">
+                <span class="cassette-label"><small>YC / VISUAL TAPE</small><strong>SPACE CASINO</strong><em>AI MOTION · 2026</em></span>
+                <span class="cassette-window" aria-hidden="true"><i></i><i></i></span>
+                <span class="cassette-edge" aria-hidden="true"></span>
+              </button>
+              <p class="ai-tv-hint" id="aiTvHint">DRAG TAPE INTO SLOT · 点击磁带也可播放</p>
+            </div>
+          </section>
+
+          <section class="ai-comic-module reveal" aria-labelledby="aiComicTitle">
+            <header class="ai-comic-heading">
+              <span>POPULAR SCIENCE COMIC / 视觉叙事实验</span>
+              <h3 id="aiComicTitle">科普漫画<i>尝试</i></h3>
+            </header>
+            <div class="ai-comic-gallery">
+              <figure>
+                <img src="assets/science-comic-01.jpg" alt="科普漫画第一部分：胃里的不速之客与就医检查" />
+                <figcaption><span>01</span><small>SCIENCE COMIC</small></figcaption>
+              </figure>
+              <figure>
+                <img src="assets/science-comic-02.jpg" alt="科普漫画第二部分：幽门螺杆菌的家庭传播" />
+                <figcaption><span>02</span><small>SCIENCE COMIC</small></figcaption>
+              </figure>
+              <figure>
+                <img src="assets/science-comic-03.jpg" alt="科普漫画第三部分：治疗与家庭健康习惯" />
+                <figcaption><span>03</span><small>SCIENCE COMIC</small></figcaption>
+              </figure>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="page future-page theme-paper" id="future" data-number="09" data-title="READING &amp; RESEARCH INTEREST" data-theme="paper">
+        <div class="page-inner future-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow">READING &amp; RESEARCH INTEREST / 阅读、思考与研究方向</p>
+            <h2>从“观看”到“参与”，<br />从作品到<i>体验系统</i>。</h2>
+          </div>
+          <div class="reading-list reveal">
+            <article><span>READING 01</span><h3>《基于 AR 的演艺元宇宙设计原则与策略》</h3><p>关注虚实融合演绎世界、梦境幻境题材与探索解密式情节。</p></article>
+            <article><span>READING 02</span><h3>《元宇宙赋能展演空间文化的探讨》</h3><p>思考展演空间在数字语境下的智能升级与虚拟场景建构。</p></article>
+            <article><span>CASE STUDY</span><h3>《只此青绿》×《唐宫夜宴》</h3><p>观察跨时空叙事、数字舞台与文化遗产转译如何服务情感体验。</p></article>
+          </div>
+          <div class="future-question reveal"><span>THREE SHIFTS / 三个转变</span><p>作者主权 → 参与式叙事<br />完成时 → 进行时<br />观照 → 体验</p></div>
+          <div class="timeline reveal">
+            <div><em>NOW</em><strong>建立知识体系</strong><span>Blender · UE · 交互原型 · 理论阅读</span></div>
+            <div><em>DIRECTION 01</em><strong>沉浸式展演空间</strong><span>参与式叙事 · 虚实体验</span></div>
+            <div><em>DIRECTION 02</em><strong>虚拟场景与制片</strong><span>游戏场景 · 虚拟舞台 · 电影场景</span></div>
+            <div><em>DIRECTION 03</em><strong>AI 辅助创作</strong><span>空间生成 · 叙事规则 · 人机判断</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page journey theme-paper" id="heart-path" data-number="10" data-title="MY THOUGHTS" data-theme="paper">
+        <header class="journey-hero">
+          <div class="hero-meta">
+            <span>PAGE 10 / THINKING ARCHIVE</span>
+            <span>PERSONAL DEVELOPMENT · 2026</span>
+          </div>
+
+          <div class="hero-title">
+            <p class="eyebrow">PERSONAL DEVELOPMENT INQUIRY &amp; ANSWERS</p>
+            <h1>心路历程<span class="brown">十问</span></h1>
+            <h2>个人发展方向的发问和回答</h2>
+          </div>
+
+          <div class="hero-intro">
+            <p>从环境设计、空间叙事，到数字艺术、虚拟制片与 AI。</p>
+            <p>这十个问题不是为了得到标准答案，而是在记录我如何一步步确认：</p>
+            <p class="statement">我为什么走到这里，以及<span class="brown big">我想继续往哪里走。</span></p>
+          </div>
+        </header>
+
+        <div class="qa-grid">
+          <article class="qa-card light">
+            <div class="qa-number">01 / ORIGIN</div>
+            <h3>为什么从环境设计走向数字艺术？</h3>
+            <p>我最早对空间产生兴趣，其实来自悬疑电影和剧集。很多推动故事发展的关键不会直接写在台词里，而是隐藏在<span class="brown">场景、道具、光线与氛围</span>之中。</p>
+            <p>高中接触影视美术之后，我开始从“喜欢一个打动人的画面”，转向好奇：这样的场景究竟是怎样被构建出来的？</p>
+            <p>大学虽然学习的是环境设计，但我始终试图把空间设计向自己真正感兴趣的方向靠近。后来我逐渐意识到，只要空间里有人活动，就会产生事件；事件不断发生，又会给空间叠加记忆和情感。</p>
+            <blockquote><span>我真正没有改变的兴趣是：</span><strong>空间如何具备讲故事的能力？</strong></blockquote>
+            <p>数字技术的发展进一步扩大了这个问题：当空间不再只存在于现实中，<span class="brown">虚拟与现实中的“人—空间关系”又会如何变化？</span></p>
+          </article>
+
+          <article class="qa-card yellow">
+            <div class="qa-number">02 / NARRATIVE</div>
+            <h3>什么才是一个真正“会讲故事”的空间？</h3>
+            <p class="large-answer">至少应该存在<span class="brown big">人的情感与行为痕迹。</span></p>
+            <p>一把没有被收回的椅子、一扇没有关闭的门、一个被反复使用留下痕迹的角落，都可能让人产生一个问题：</p>
+            <blockquote><strong>“这里发生过什么？”</strong></blockquote>
+            <p>空间叙事并不一定意味着直接告诉观众一个完整故事。创作者可以通过空间、物件、光线、声音和行为痕迹留下线索，让观众主动感知、推断与补全。</p>
+            <p class="key-line">空间不是故事的装饰，<span class="brown big">它可以成为故事的证据。</span></p>
+          </article>
+
+          <article class="qa-card yellow">
+            <div class="qa-number">03 / AGENCY</div>
+            <h3>当观众能够“穿过屏幕”，创作者应该交出多少叙事权？</h3>
+            <p>影视通常已经建立相对完整的叙事骨架；游戏与沉浸式展演则可以只规定部分规则，让参与者通过行动获得不同体验。</p>
+            <p>我并不认为两者存在绝对的高低，它们更像是在选择：</p>
+            <div class="versus"><span>重作品</span><em>VS.</em><span>重体验</span></div>
+            <p>也可以理解为观众与作品之间<span class="brown">距离的远与近</span>。</p>
+            <p class="key-line">创作者不会消失，只是从<span class="brown">“控制最终结果”</span>逐渐转向<span class="brown big">“设计什么可以发生”。</span></p>
+          </article>
+
+          <aside class="thought-note">
+            <div class="qa-number">SIDE NOTE / 突然产生的想法</div>
+            <h3>数字技术正在让<span class="brown">想象被看见。</span></h3>
+            <p>它让人能够搭建原本只存在于幻想中的世界，也能够复原已经过去、无法再次抵达的真实场景。</p>
+            <p>而 AI 的出现，又进一步降低了人们对未知世界、未来场景和想象空间进行探索的门槛。</p>
+            <blockquote><strong>当“实现想象”越来越容易，为什么仍然需要创作者？</strong></blockquote>
+            <p class="large-answer">我目前的答案是：<span class="brown big">人的判断、收束、经验与情感。</span></p>
+          </aside>
+
+          <article class="qa-card light">
+            <div class="qa-number">04 / AI</div>
+            <h3>AI降低“会做”的门槛以后，设计师真正需要会什么？</h3>
+            <p class="key-line"><span class="brown big">AI降低的是“会做”的门槛，而不是“做好”的门槛。</span></p>
+            <p>手绘、软件操作和空间构建能力仍然重要，因为这些能力构成了创作者理解形式、结构、光影与空间关系的基础。</p>
+            <p>而随着生成能力越来越普及，更重要的可能逐渐变成：</p>
+            <div class="keyword-row"><span>审美</span><span>判断</span><span>选择</span><span>感知</span><span>情感敏感度</span></div>
+            <p>当 AI 作品大量出现以后，我反而认为作品中的<span class="brown big">“人类质感”</span>会因为创作者和观看者之间真实的共鸣而变得更加珍贵。</p>
+          </article>
+
+          <article class="qa-card light">
+            <div class="qa-number">05 / VIRTUAL PRODUCTION</div>
+            <h3>虚拟制片真正吸引我的是什么？</h3>
+            <p class="large-answer"><span class="brown big">虚拟空间与现实空间的交互。</span></p>
+            <p>真正吸引我的并不是单独某一个软件或设备，而是一个存在于电脑中的空间，最终如何进入真实拍摄现场，与演员、摄影机、灯光和实体布景共同构成最终画面。</p>
+            <div class="process"><span>虚拟构想</span><i>→</i><span>场景搭建</span><i>→</i><span>现场执行</span><i>→</i><span>最终呈现</span></div>
+            <p class="key-line">我希望理解并参与：<span class="brown">虚拟世界最终怎样真正“发生”。</span></p>
+          </article>
+
+          <article class="qa-card yellow wide">
+            <div class="qa-number">06 / IMMERSION</div>
+            <h3>真正的沉浸式展演，与“技术体验”有什么区别？</h3>
+            <div class="split-text">
+              <div><h4>TECH EXPERIENCE</h4><p>如果只是不断增加投影、大屏、声音与传感器，最终让观众最先意识到“这个技术很酷”，那么对我而言，它更接近<span class="brown">技术体验。</span></p></div>
+              <div><h4>IMMERSIVE EXPERIENCE</h4><p>真正的沉浸需要让人的身体进入作品：移动、寻找、停留，并在行动中经历内容。</p></div>
+            </div>
+            <blockquote><strong>空间在沉浸式展演中，可以承担<span class="brown big">“时间”</span>的作用。</strong></blockquote>
+            <p>电影依靠剪辑决定先看到什么、后看到什么；沉浸空间则可以通过路径、遮挡、距离、开合、转折和停留重新安排事件的体验顺序。</p>
+            <p class="key-line">我最终希望观众带走的不是一种技术，而是<span class="brown big">一段只属于自己的情感体验。</span></p>
+          </article>
+
+          <article class="qa-card light">
+            <div class="qa-number">07 / TECHNOLOGY</div>
+            <h3>什么时候“不使用技术”，反而更好？</h3>
+            <p class="large-answer"><span class="brown big">技术应该服务于表达与情感。</span></p>
+            <p>当技术可以帮助观众更靠近作品，它有存在的必要。如果不断增加数字技术反而让体验者从情绪中抽离，那么技术就应该被削弱。</p>
+            <p>哪怕最终留下来的只是一件真实物件、一道光或一段声音，只要它是最能打动人的部分，就值得留下。</p>
+            <blockquote><strong>技术不需要证明自己的存在。</strong></blockquote>
+            <p>我更希望观众先进入世界，最后才后知后觉地发现：<span class="brown">“原来这里的技术这么厉害。”</span></p>
+          </article>
+
+          <article class="qa-card yellow">
+            <div class="qa-number">08 / CONVERGENCE</div>
+            <h3>为什么三个看似不同的方向同时吸引我？</h3>
+            <p>沉浸式展演、虚拟制片和 AI 辅助创作，表面上是三个方向，但现在看来，它们共同指向两个问题：</p>
+            <blockquote><strong>01 / 技术如何改变<span class="brown big">人和空间之间的关系？</span></strong></blockquote>
+            <blockquote><strong>02 / 我为什么一直喜欢<span class="brown big">“过程创造”？</span></strong></blockquote>
+            <p>我喜欢作品从想法产生、经历变化，再逐渐形成结果的过程。</p>
+            <p class="key-line">真正吸引我的可能不是一个固定技术，而是<span class="brown big">跨越虚拟与现实的场景生成过程。</span></p>
+          </article>
+
+          <article class="qa-card yellow wide">
+            <div class="qa-number">09 / POSITION</div>
+            <h3>三年以后，我希望别人因为什么记住我？</h3>
+            <p>我不希望首先被记住的是：“她使用了很多先进技术。”</p>
+            <p class="manifesto">我更希望自己能够<span class="brown big">把控好技术的使用，</span>让人首先自然地进入目标环境、目标世界与被塑造的时间。</p>
+            <p class="manifesto">先<span class="brown">感受到世界，</span>再后知后觉地意识到<span class="brown big">技术很牛。</span></p>
+            <p>职业上，我目前更希望走向一个能够理解并参与完整创作流程的位置：</p>
+            <div class="process"><span>概念</span><i>×</i><span>空间</span><i>×</i><span>数字技术</span><i>×</i><span>现场执行</span><i>×</i><span>最终体验</span></div>
+            <p>更偏向一个能够连接不同环节，同时参与创作判断与整体统筹的人。</p>
+          </article>
+
+          <article class="qa-card open-question wide">
+            <div class="qa-number">10 / OPEN QUESTION</div>
+            <h3>如果有一天，技术不再是优势，<br />我还希望留下些什么？</h3>
+            <p>如果十年以后 AI、虚拟制片、实时渲染与沉浸交互都已经成为普通的创作基础设施，那么抛开所有技术以后——</p>
+            <p class="manifesto">我究竟想成为一个<span class="brown big">怎样的创作者？</span></p>
+            <div class="blank-answer"><span>“这是余晨琛的作品，因为她总是</span><span class="blank-line"></span><span>。”</span></div>
+            <p class="open-note">这个空白暂时保留。<br />留给之后的学习、创作与经历慢慢回答。</p>
+          </article>
+        </div>
+
+        <footer class="journey-summary">
+          <div class="summary-label">CURRENT THINKING / 阶段性思考</div>
+          <div class="summary-grid">
+            <div><span>01</span><strong>SPACE</strong><p>空间是叙事媒介</p></div>
+            <div><span>02</span><strong>HUMAN</strong><p>人的经验产生温度</p></div>
+            <div><span>03</span><strong>TECHNOLOGY</strong><p>技术服务表达</p></div>
+            <div><span>04</span><strong>PROCESS</strong><p>过程本身也是创作</p></div>
+            <div><span>05</span><strong>FUTURE</strong><p>答案仍在形成</p></div>
+          </div>
+        </footer>
+      </section>
+
+      <section class="page contact-page theme-dark" id="contact" data-number="11" data-title="NEXT" data-theme="dark">
+        <div class="contact-visual" aria-hidden="true"><img src="assets/ai-final-c.webp" alt="" /></div>
+        <div class="page-inner contact-layout">
+          <p class="eyebrow reveal">NEXT / 未来计划与联系方式</p>
+          <p class="contact-next reveal">what’s next</p>
+          <h2 class="reveal">保持热爱，保持敏感，<br />保持对<span>空间与叙事</span>的好奇。</h2>
+          <div class="contact-bottom reveal">
+            <div><p>IMMERSIVE SPACE · VIRTUAL SCENE<br />AI-ASSISTED NARRATIVE CREATION</p><a href="mailto:2418574378@qq.com">2418574378@qq.com</a></div>
+            <div class="contact-sign"><strong>余晨琛</strong><span>SPATIAL DESIGNER / DIGITAL ART EXPLORER</span></div>
+          </div>
+        </div>
+        <a class="back-top" href="#cover">BACK TO TOP ↑</a>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+    <script src="journey.js"></script>
+    <script src="ai-tv.js"></script>
+  </body>
+</html>
